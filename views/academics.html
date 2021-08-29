@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="icon" href="/public/logo2.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="/public/variables.css">
+    <link rel="stylesheet" href="/public/style.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Academics | Faith Christian School</title>
+</head>
+
+<body>
+    <div class="navbar ">
+        <div class="container flex">
+            <h1 class="logo">Faith Christian School.</h1>
+            <img class='logo-image' src="/public/logo2.jpg" alt="">
+            <nav class="menu">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about">About us</a></li>
+                    <li><a href="/academics">Academics</a></li>
+                    <li><a href="/contact">Contact us</a></li>
+                </ul>
+            </nav>
+            <div class="menubtn"><i class="fas fa-bars"></i></div>
+        </div>
+    </div>
+    <div class="academics grid container py-5">
+
+        <div class="card my-4">
+            <h2 class="md text-primary">Enroll With Us</h2>
+
+
+            <form action="send" method="POST" class="form">
+                <div class="form-control">
+                    <input type="text" name="parentName" placeholder="Parent/guardian name" required />
+                </div>
+                <div class="form-control">
+                    <input type="text" name="parentContact" placeholder="contact/telephone" required />
+                </div>
+                <div class="form-control">
+                    <input type="email" name="email" placeholder="Email" required />
+                </div>
+                <div class="form-control">
+                    <input type="text" name="childName" placeholder="Child full-name" required />
+                </div>
+                <div class="form-control">
+                    <input type="text" name="class" placeholder="Class to join" required />
+                </div>
+                <div class="form-control">
+                    <h5>select interview date</h5>
+                    <input type="text" name="date" placeholder=" date" onfocus="(this.type='date')" required />
+                </div><br>
+                <div class="field textarea">
+                    <textarea name="message" id=" " cols="30 " rows="6 " placeholder=" Additional message... " required></textarea>
+                </div>
+
+                <input type="submit" value="Send" class="btn btn-primary " />
+            </form>
+        </div>
+
+        <div class="card bg-light top  ">
+            <div class="text-secondary md">Admission Procedure
+                <hr>
+            </div>
+            <div class="">
+
+                <h2 class="text-secondary">For Admission to: </h2>
+                <h3 class="text-secondary">(a) Kindergarten - KG 1</h3> To book your child's slot for admission to KG1 you require: Copy of child birth certificate. <br>
+                <h3 class="text-secondary">(b) Admission to all other classes</h3> The following are the requirements to transfer to our school:
+                <br> Birth certificate, Student Nemis number & Letter from previous school <br> 2. Book an Interview <br> 3. Be enrolled to the school if Successful
+
+            </div><br>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer py-5">
+        <div class="container grid grid-3">
+            <div>
+                <h1>Faith Christian School |</h1>
+                <p>Copyright &copy; 2020</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about">About us</a></li>
+                    <li><a href="/academics">Academics</a></li>
+                    <li><a href="/contact">Contact us</a></li>
+                </ul>
+            </nav>
+            <div class="social">
+                <a href="https://www.linkedin.com/_hiuhu" target="_blank"><i class="fab fa-linkedin-in fa-2x"></i
+          ></a>
+                <a href="https://twitter.com/Hiuhu_edward" target="_blank"><i class="fab fa-twitter fa-2x"></i
+          ></a>
+                <a href="https://twitter.com/Hiuhu_edward" target="_blank"><i class="fab fa-facebook fa-2x"></i
+          ></a>
+                <a href="https://twitter.com/Hiuhu_edward" target="_blank"><i class="fab fa-youtube fa-2x"></i
+          ></a>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js "></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="/public/index.js"></script>
+</body>
+
+</html>
